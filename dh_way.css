@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #1c1b1b;
+}
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.links_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links_btn li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 130px;
+    height: 35px;
+}
+
+.links_btn li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "inter";
+}
+
+.links_btn .nav_link_color {
+    color: #7d7d7d;
+}
+
+.home_link_color {
+    color: white;
+}
+
+.links_btn button {
+    padding: 12px 12px 17px 18px;
+    font-size: 17px;
+    border-radius: 26px;
+    margin: 0 0 0 28px;
+    background-color: #1c1b1b;
+    color: white;
+    border: 1px solid #D9D9D9;
+}
+
+.links_btn button a {
+    padding: 12px 7px;
+    text-decoration: none;
+    color: #d9d9d9;
+}
+
+
+
+section {
+    background-color: #1c1b1b;
+}
+.hero_sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.hero_div_1 img {
+    position: absolute; 
+    right: 61px;
+    width: 450px;
+    bottom: 10px;
+}
+
+
+
+.hero_div_1 {
+    width: 30%;
+    position: absolute;
+
+}
+
+.hero_div_1 h1 {
+    font-size: 75px;
+    color: #d5d5d5;
+    font-family: "jost";
+    font-weight: 500;
+}
+
+.hero_div_1 button {
+    font-size: 20px;
+    border: none;
+    box-shadow: 0px 0.7px 3px 0px #C49A6D;
+    padding: 10px 16px;
+    background-color: #1c1b1b;
+    border-radius: 12px;
+    margin-top: 28px;
+}
+
+.hero_div_1 button a {
+    color: #C49A6D;
+    text-decoration: none;
+    font-family: "inter";
+}
+
+.hero_div_2 {
+    position: relative;
+    left: 345px;
+    bottom: 0;
+    top: 0;
+    width: 50%;
+    height: 789px;
+}
+
+.hero_div_2 img {
+    width: 100%;
+    height: 100%;
+}
+.hero_div_3 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 20%;
+    align-items: center;
+    right: 0;
+}
+
+.hero_div_3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 25px;
+    width: 240px;
+    margin: 20px 0;
+    background-color: #00000080;
+    text-decoration: none;
+    font-family: "inter";
+    border: none;
+    box-shadow: 2px 1px 7px #00000080;
+    border-radius: 7px;
+}
+.box_content span {
+    display: block;
+}
+a.digital_marketing {
+    position: absolute;
+    right: 225px;
+}
+a.devlopment {
+    position: absolute;
+    right: 75px;
+    bottom: 260px;
+}
+a.crack_interview.courses {
+    position: absolute;
+    bottom: 125px;
+}
+.circle2 img {
+    width: 448px;
+}
+a.designing {
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.box_content span {
+    display: block;
+    color: #c1c1c1;
+}
+span.span1 {
+    color: #aeaeae;
+}
+
+
